@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#writebox{
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+	height: 700px;
+	text-align: center;
+	vertical-align: middle;
+}
+#titlebar{
+	margin: 0 auto;
+	padding: 0;
+	height: 50px;
+	width: 90%;
+	vertical-align: middle;
+	text-align: center;
+}
+#category{
+	float: left;
+	height: 30px;
+	width: 100px;
+}
+#btitle{
+	height: 30px;
+	width: 70%;
+}
+#bcontent{
+	width: 90%;
+	height: 500px;
+	margin: 10px;
+	padding: 10px;
+}

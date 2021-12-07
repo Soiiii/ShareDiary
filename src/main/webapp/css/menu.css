@@ -1,0 +1,108 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* 본문 스타일링 */
+body {
+	margin: 0;
+	font-family: NotoSansKR-Regular;
+}
+/* 메인베너 이미지 로고*/
+.header {	
+	background-image: url();
+	width:100%;
+	text-align: center;
+	overflow: auto;
+}
+
+/* Nav 보라색 바 처리 */
+.navbar {
+	overflow: hidden;
+	background-color: #9370DB; 
+	position : sticky;
+	position: -webkit-sticky;
+	top: 0;
+	position: sticky;
+}
+
+/* Nav 글씨 크기 */
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: nrgb(241, 254, 15); 
+	font-size: 20px;
+	float:left;
+}
+
+/* Nav 오른쪽 끝 하트 */
+.navbar a.right {
+  float: right;
+}
+
+/* Nav 위에 마우스를 올리면 변경되는 색깔 */
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+
+/* Nav에서 활성화 되어 있는 메뉴 색 */
+.navbar a.active {
+	background-color: #F8F8FF; 
+	color: #9370DB;
+}
+
+/* 사이드바 왼쪽 로그인창 */
+.side {
+	width: 390px;
+	background-color: #F8F8FF;
+	padding: 20px;
+	height: 800px;
+}
+
+/* 회색 로그인 박스창*/
+.login {
+	height: 250px;
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#e9e7ef;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	width:350px;
+	}
+	
+/* 보라색 로그인 버튼 */
+	#log{
+	height: 50px;
+	width: 310px;
+	background-color:#9370DB;
+	color:white;
+	padding: 10px;
+	margin: 20px;
+	cursor: pointer;
+  	border: none;
+  	}
+
+
+
+
+/* 화면 스크린 크기  (확인해보기)*/
+/* 기본 설정: 페이지 전체 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 샛별추가 메인박스 우측정렬 */
+#contentbox, #article{
+	display:flex; 
+	flex-direction:row;
+}

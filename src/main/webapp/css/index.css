@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+* {
+	box-sizing: border-box;
+	}
+
+/* 본문 스타일링 */
+body {
+	margin: 0;
+	font-family: NotoSansKR-Regular;
+	
+}
+/* 메인클래스 contentbox */
+#contentbox {
+	-ms-flex: 70%; /* IE10 */
+	flex: 70%;
+	background-color: white;
+	padding: 20px;
+	width: 1218px;
+	text-align: center;
+}
+/* 
+.mainBoardBox1 {
+	margin: 0 auto;
+	height: auto;
+	width: 600px;
+	list-style-type: none;
+	background-color: yellow;
+	list-style-type: none;
+	float:left;
+}
+ */
+.mainBoardBox {
+	margin: 0 auto;
+	height: auto;
+	width: 600px;
+	list-style-type: none;
+	background-color: #F8F8FF;
+	list-style-type: none;
+	float:left;
+}
+li {
+width:550px;
+}
+
+
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height:50px;
+	text-align:center;
+}
+
+#ulTable{
+	/* margin-top: 10px; */
+	margin: 10px;
+	height: auto;
+}
+
+#ulTable > li:first-child > ul > li{
+	background-color: #9370DB;
+	font-weight: bold;
+	text-align: center;
+}
+
+#ulTable > li > ul{
+	clear: both;
+	padding: 0 auto;
+	position: relative;
+	min-width: 40px;
+}
+#ulTable > li > ul > li{
+	float: left;
+	font-size: 10pt;
+	border-bottom: 1px #9370DB;
+	height: 50px;
+	line-height: 25px;
+}
+
+#ulTable > li > ul > li:first-child{
+	width: 70%;
+	text-align: center;
+}
+#ulTable > li > ul > li:first-child +li{
+	width: 18%;
+	text-align: center;
+}
+#ulTable > li > ul > li:first-child +li + li{
+	width: 12%;
+	text-align: center;
+}
+
+#thumb {
+	width: 10px;
+	height: 10px;
+}
+
+.mainBoardBox a {
+	text-decoration: none;
+	color: black;
+}
+
+/* 화면 스크린 크기  (확인해보기)*/
+/* 기본 설정: 페이지 전체 */
+* {
+	margin: 0;
+	padding: 0;
+}
